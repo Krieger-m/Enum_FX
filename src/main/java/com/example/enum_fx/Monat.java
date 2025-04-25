@@ -20,6 +20,8 @@ public enum Monat {
 
     Monat(int zahl, int quartal) {
 
+        this.zahl = zahl;
+        this.quartal = quartal;
     }
 
 
